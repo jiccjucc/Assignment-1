@@ -1,0 +1,30 @@
+# (Turtle: draw four squares) Write a program that draws four squares in the center
+# of the screen, as shown in Figure 1.18a
+import turtle
+turtle.showturtle()
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(200)
+turtle.right(90)
+turtle.forward(200)
+turtle.right(90)
+turtle.forward(200)
+turtle.right(90)
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(200)
+turtle.penup()
+turtle.goto(0,-100)
+turtle.pendown()
+turtle.right(90)
+turtle.forward(100)
+turtle.penup()
+turtle.goto(0,100)
+turtle.pendown()
+turtle.right(180)
+turtle.forward(100)
+
+turtle.done()
+
